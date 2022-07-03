@@ -1,0 +1,34 @@
+.header {
+  background-color: rgb(243, 198, 189);
+}
+
+.logo {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.logo__name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: rgb(43, 41, 45);
+}
+
+.logo__description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(43, 41, 45, 0.6);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Work Sans", sans-serif;
+  font-size: 24px;
+}
+
+/*# sourceMappingURL=styles.css.map */
