@@ -8,6 +8,9 @@
   height: 60px;
   display: flex;
   align-items: center;
+  &__image {
+    margin-right: 15px;
+  }
   &__name {
     font-weight: 700;
     font-size: 20px;
@@ -39,30 +42,24 @@
   }
 }
 
-.button {
-  border: 0;
-  width: 160px;
-  height: 48px;
-  color: white;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 13px;
-  margin-right: 38px;
-  background-color: $button-color;
-  border-radius: $border-radius;
-  &--white {
-    background-color: white;
-    color: $button-color;
-    margin-right: 0;
-    width: 158px;
-  }
-}
-
 .headline {
+  max-width: 1400px;
   padding: 0 130px;
   background-color: $main-background;
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png);
   background-repeat: no-repeat;
   background-position-x: right;
   height: 533px;
+  &__title {
+    max-width: 754px;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 78px;
+  }
+  &__description {
+    max-width: 456px;
+    font-size: 24px;
+    line-height: 34px;
+    padding: 34px 0 58px 0;
+  }
 }

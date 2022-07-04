@@ -1,0 +1,16 @@
+.about {
+  max-width: 1400px;
+  padding: 77px 130px 76px 130px;
+  background-color: rgba(244, 245, 247, 1);
+  display: flex;
+  &__container {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  &__container:first-child {
+    padding-right: 29px;
+  }
+  &__title {
+    font-weight: 700;
+  }
+}
