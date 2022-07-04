@@ -1,34 +1,70 @@
 .header {
-  background-color: rgb(243, 198, 189);
-}
+  max-width: 1400px;
+  padding: 41px 130px 76px 130px;
+  background-color: #f3c6bd;
+  display: flex; }
 
 .logo {
   height: 60px;
   display: flex;
-  align-items: center;
-}
+  align-items: center; }
+  .logo__name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2b292d; }
+  .logo__description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(43, 41, 45, 0.6); }
 
-.logo__name {
+.navigation {
+  height: 60px;
+  margin-left: auto;
+  display: flex;
+  align-items: center; }
+  .navigation__item {
+    font-size: 18px;
+    margin-right: 50px; }
+  .navigation__item:last-of-type {
+    margin-right: 11px; }
+  .navigation__arrow {
+    margin-right: 56px; }
+
+.button {
+  border: 0;
+  width: 160px;
+  height: 48px;
+  color: white;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 25px;
-  color: rgb(43, 41, 45);
-}
-
-.logo__description {
-  font-weight: 400;
   font-size: 18px;
-  line-height: 25px;
-  color: rgba(43, 41, 45, 0.6);
-}
+  line-height: 13px;
+  margin-right: 38px;
+  background-color: #3040c4;
+  border-radius: 2px; }
+  .button--white {
+    background-color: white;
+    color: #3040c4;
+    margin-right: 0;
+    width: 158px; }
+
+.headline {
+  padding: 0 130px;
+  background-color: #f3c6bd;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  height: 533px; }
 
 * {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 html {
-  font-family: "Work Sans", sans-serif;
-  font-size: 24px;
-}
+  font-family: 'Work Sans', sans-serif;
+  font-size: 24px; }
+
+h1 {
+  margin: 0; }
 
 /*# sourceMappingURL=styles.css.map */

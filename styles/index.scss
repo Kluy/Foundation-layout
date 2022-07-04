@@ -1,3 +1,4 @@
+@import 'var.scss';
 @import 'header.scss';
 
 * {
@@ -6,4 +7,7 @@
 html {
   font-family: 'Work Sans', sans-serif;
   font-size: 24px;
+}
+h1 {
+  margin: 0;
 }

@@ -1,21 +1,68 @@
 .header {
+  max-width: 1400px;
+  padding: 41px 130px 76px 130px;
   background-color: rgba(243, 198, 189, 1);
+  display: flex;
 }
 .logo {
   height: 60px;
   display: flex;
   align-items: center;
+  &__name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgba(43, 41, 45, 1);
+  }
+  &__description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(43, 41, 45, 0.6);
+  }
 }
 
-.logo__name {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 25px;
-  color: rgba(43, 41, 45, 1);
+.navigation {
+  height: 60px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  &__item {
+    font-size: 18px;
+    margin-right: 50px;
+  }
+  &__item:last-of-type {
+    margin-right: 11px;
+  }
+  &__arrow {
+    margin-right: 56px;
+  }
 }
-.logo__description {
-  font-weight: 400;
+
+.button {
+  border: 0;
+  width: 160px;
+  height: 48px;
+  color: white;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 25px;
-  color: rgba(43, 41, 45, 0.6);
+  line-height: 13px;
+  margin-right: 38px;
+  background-color: $button-color;
+  border-radius: $border-radius;
+  &--white {
+    background-color: white;
+    color: $button-color;
+    margin-right: 0;
+    width: 158px;
+  }
+}
+
+.headline {
+  padding: 0 130px;
+  background-color: $main-background;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  height: 533px;
 }
