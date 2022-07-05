@@ -4,15 +4,16 @@
 @import 'customers.scss';
 @import 'features.scss';
 @import 'inbox.scss';
+@import 'communication.scss';
+
+// @import '';
+// @import '';
+// @import '';
+
+// @import '';
+// @import '';
+
 @import 'sections-content.scss';
-
-// @import '';
-// @import '';
-// @import '';
-
-// @import '';
-// @import '';
-
 @import 'button.scss';
 
 * {
@@ -38,6 +39,7 @@ figure {
 figcaption {
   font-size: 14px;
   line-height: 22px;
+  margin-top: 15px;
   color: $figcaption-color;
   text-align: center;
 }
