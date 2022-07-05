@@ -3,14 +3,13 @@
   padding: 77px 130px 76px 130px;
   background-color: rgba(244, 245, 247, 1);
   display: flex;
+  justify-content: space-between;
   &__container {
     font-size: 22px;
     line-height: 32px;
-  }
-  &__container:first-child {
-    padding-right: 29px;
+    width: 555px;
   }
   &__title {
-    font-weight: 700;
+    padding-bottom: 8px;
   }
 }

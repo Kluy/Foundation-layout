@@ -1,0 +1,32 @@
+.inbox {
+  max-width: 1400px;
+  padding: 115px 99px 101px 130px;
+  background-color: rgba(252, 240, 227, 1);
+  display: flex;
+  align-items: flex-end;
+  &__figure {
+    padding: 0 192px 0 53px;
+  }
+}
+.review {
+  background-color: white;
+  padding: 30px 30px 28px 30px;
+  border-bottom: 4px solid rgba(1, 133, 208, 1);
+  width: 519px;
+  &__text {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 28px;
+  }
+  &__author {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 22px;
+    padding-top: 26px;
+    height: 44px;
+    &__avatar {
+      margin-right: 11px;
+    }
+  }
+}

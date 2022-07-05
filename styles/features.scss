@@ -1,0 +1,14 @@
+.features {
+  max-width: 1400px;
+  padding: 0 130px;
+  background-position-x: right;
+  background-repeat: no-repeat;
+
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/invision-screen.png);
+  &__title {
+  }
+  &__description {
+    font-size: 24px;
+    line-height: 34px;
+  }
+}
