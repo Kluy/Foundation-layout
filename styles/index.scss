@@ -22,15 +22,16 @@
 }
 html {
   font-family: 'Work Sans', sans-serif;
-  font-size: $main-font;
+  font-size: $main-font-size;
   line-height: 34px;
-  color: $text-main-color;
+  color: $main-text-color;
 }
 h1,
 h2,
 h3,
 h4,
-p {
+p,
+figure {
   margin: 0;
 }
 
@@ -55,14 +56,17 @@ h2 {
   margin-bottom: 44px;
 }
 
-figure {
-  margin: 0;
-}
-
 figcaption {
   font-size: 14px;
   line-height: 22px;
   margin-top: 15px;
-  color: $figcaption-color;
+  color: $light-grey;
   text-align: center;
+}
+
+.icon-arrow {
+  display: block;
+  width: 7px;
+  height: 12px;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png);
 }

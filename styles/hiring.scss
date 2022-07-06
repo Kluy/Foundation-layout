@@ -1,13 +1,54 @@
 .hiring {
   max-width: 1400px;
-  padding: 106px 130px 110px 130px;
+  padding: 106px 130px 0 130px;
   text-align: center;
-  &__section-main {
-    margin: 0 auto;
-    width: 555px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__text {
+    margin-bottom: 28px;
+    max-width: 555px;
   }
-  &__button {
-    margin-top: 28px;
-    width: 247px;
+
+  &__vacancies {
+    margin: 110px 0;
+  }
+  &__vacancy {
+    margin-bottom: 20px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+.vacancy {
+  display: flex;
+  align-items: center;
+  max-width: 750px;
+  height: 81px;
+  text-align: left;
+  padding: 0 34px 0 25px;
+  border-radius: 8px;
+  border: 1px solid rgba(43, 41, 45, 0.2);
+  background-color: rgba(255, 255, 255, 1);
+  &:hover {
+    background-color: $hover-background;
+    color: rgba(255, 255, 255, 1);
+    .vacancy__location {
+      color: rgba(255, 255, 255, 1);
+    }
+    .icon-arrow {
+      background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right-white.png);
+    }
+  }
+  &__title {
+    width: 408px;
+    margin-right: 20px;
+  }
+  &__location {
+    width: 265px;
+    font-size: 18px;
+    line-height: 24px;
+    color: $light-grey;
   }
 }

@@ -15,6 +15,8 @@
     width: 158px; }
   .button_black-text {
     color: black; }
+  .button_hiring {
+    width: 247px; }
 
 .header {
   max-width: 1400px;
@@ -219,14 +221,54 @@
 
 .hiring {
   max-width: 1400px;
-  padding: 106px 130px 110px 130px;
-  text-align: center; }
-  .hiring__section-main {
-    margin: 0 auto;
-    width: 555px; }
-  .hiring__button {
-    margin-top: 28px;
-    width: 247px; }
+  padding: 106px 130px 0 130px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .hiring__text {
+    margin-bottom: 28px;
+    max-width: 555px; }
+  .hiring__vacancies {
+    margin: 110px 0; }
+  .hiring__vacancy {
+    margin-bottom: 20px; }
+    .hiring__vacancy:last-child {
+      margin-bottom: 0; }
+
+.vacancy {
+  display: flex;
+  align-items: center;
+  max-width: 750px;
+  height: 81px;
+  text-align: left;
+  padding: 0 34px 0 25px;
+  border-radius: 8px;
+  border: 1px solid rgba(43, 41, 45, 0.2);
+  background-color: white; }
+  .vacancy:hover {
+    background-color: #3141c5;
+    color: white; }
+    .vacancy:hover .vacancy__location {
+      color: white; }
+    .vacancy:hover .icon-arrow {
+      background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right-white.png); }
+  .vacancy__title {
+    width: 408px;
+    margin-right: 20px; }
+  .vacancy__location {
+    width: 265px;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(43, 41, 45, 0.6); }
+
+.order__title {
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.25px; }
+.order__text {
+  font-size: 22px;
+  line-height: 32px; }
 
 .content {
   width: 462px; }
@@ -246,7 +288,8 @@ h1,
 h2,
 h3,
 h4,
-p {
+p,
+figure {
   margin: 0; }
 
 h4 {
@@ -266,14 +309,17 @@ h2 {
 .section-description {
   margin-bottom: 44px; }
 
-figure {
-  margin: 0; }
-
 figcaption {
   font-size: 14px;
   line-height: 22px;
   margin-top: 15px;
   color: rgba(43, 41, 45, 0.6);
   text-align: center; }
+
+.icon-arrow {
+  display: block;
+  width: 7px;
+  height: 12px;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png); }
 
 /*# sourceMappingURL=styles.css.map */
