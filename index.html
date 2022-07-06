@@ -115,7 +115,7 @@
       <div class="content">
         <h4 class="features__title">Features</h4>
         <h2>Easily find leads and customers</h2>
-        <p class="content__description">
+        <p class="features__description">
           Send one-off and automated email, push, and in-app messages to people.
           Create better stories.
         </p>
@@ -172,11 +172,11 @@
         <div class="content">
           <h4 class="inbox__title">Team Inbox</h4>
           <h2>Manage conversations</h2>
-          <p class="content__description">
+          <p class="inbox__description">
             One place to manage and respond to all conversations with leads and
             users. Receive messages from leads.
           </p>
-          <div class="review">
+          <div class="review inbox__review">
             <p class="review__text">
               “Great widgets. Great selection. Great design and easy to
               implement. Definitely a huge time saver for a web developer!”
@@ -201,7 +201,7 @@
         <div class="communication__content">
           <h4 class="communication__title">Communicate Better</h4>
           <h2>Built for busy small teams</h2>
-          <p class="content__description">
+          <p class="communication__description">
             Three products that can be used independently or combined together
             for your company’s needs.
           </p>
@@ -265,28 +265,28 @@
             src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-1.png"
             alt="Developers"
           />
-          <p class="user-card__caption">Developers</p>
+          <p class="user-card__title">Developers</p>
         </div>
         <div class="user-card">
           <img
             src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-2.png"
             alt="Entertainment"
           />
-          <p class="user-card__caption">Entertainment</p>
+          <p class="user-card__title">Entertainment</p>
         </div>
         <div class="user-card">
           <img
             src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-3.png"
             alt="Athletes"
           />
-          <p class="user-card__caption">Athletes</p>
+          <p class="user-card__title">Athletes</p>
         </div>
         <div class="user-card">
           <img
             src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-4.png"
             alt="Creators"
           />
-          <p class="user-card__caption">Creators</p>
+          <p class="user-card__title">Creators</p>
         </div>
       </div>
     </section>
@@ -371,10 +371,115 @@
       </div>
     </section>
     <section class="order">
-      <div class="order__title">Start your free trial.</div>
-      <div class="order__text">
-        Get notified about company updates, news and blog posts. We hate spam.
+      <img
+        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/illustration-window.png"
+        alt="Window"
+      />
+      <div>
+        <div class="order__title">Start your free trial.</div>
+        <div class="order__description">
+          Get notified about company updates, news and blog posts. We hate spam.
+        </div>
+        <form>
+          <input type="email" placeholder="Enter your email" />
+          <button class="button">Get Started</button>
+          <p class="order__small-text">
+            Free 14-day trial · Easy setup · Cancel any time. Check out
+            <a href="#"> Terms of Use.</a>
+          </p>
+        </form>
       </div>
     </section>
+    <footer class="footer">
+      <div class="footer__container">
+        <div>
+          <div class="logo">
+            <img
+              class="logo__image"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-dark.png"
+              alt="Logo"
+            />
+            <div>
+              <div class="logo__name">Foundation</div>
+              <div class="logo__description">Startup landing template</div>
+            </div>
+          </div>
+          <div class="footer__description">
+            Foundation is a website template for startups and small teams. It
+            helps to build a website in no time.
+          </div>
+          <img
+            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/app-store.png"
+            alt="App-Store"
+          />
+          <img
+            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/google-play.png"
+            alt="Google-Play"
+          />
+        </div>
+
+        <div class="additional-navigation">
+          <ul class="additional-navigation__list">
+            <li class="additional-navigation__title">Product</li>
+            <li class="additional-navigation__link">
+              <a href="#"> Acquire Users </a>
+            </li>
+            <li class="additional-navigation__link">
+              <a href="#">Content Marketing</a>
+            </li>
+            <li class="additional-navigation__link">
+              <a href="#">Website Templates </a>
+            </li>
+            <li class="additional-navigation__link">
+              <a href="#">Customer Management</a>
+            </li>
+            <li class="additional-navigation__link">
+              <a href="#">Virtual Inbox</a>
+            </li>
+          </ul>
+          <ul class="additional-navigation__list">
+            <li class="additional-navigation__title">Company</li>
+            <li class="additional-navigation__link">
+              <a href="#">About Foundation</a>
+            </li>
+            <li class="additional-navigation__link">
+              <a href="#">Brand Guidelines</a>
+            </li>
+            <li class="additional-navigation__link">
+              <a href="#">Press Kit</a>
+            </li>
+            <li class="additional-navigation__link"><a href="#">Support</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__navigation">
+        <nav class="navigation">
+          <div class="navigation__item">Terms</div>
+          <div class="navigation__item">Privacy</div>
+          <div class="navigation__item">Licence</div>
+        </nav>
+        <div class="social-links">
+          <a class="social-links__item" href="https://twitter.com/?lang=en">
+            <img
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-twitter.png"
+              alt="Twitter"
+            />
+          </a>
+          <a class="social-links__item" href="https://www.facebook.com/">
+            <img
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-fb.png"
+              alt="Facebook"
+            />
+          </a>
+          <a class="social-links__item" href="https://www.facebook.com/">
+            <img
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-linkedIn.png"
+              alt="LinkedIn"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

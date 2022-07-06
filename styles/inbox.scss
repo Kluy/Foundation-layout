@@ -7,14 +7,19 @@
   &__title {
     color: rgba(241, 89, 43, 1);
   }
+  &__review {
+    margin-bottom: 15px;
+  }
   &__figure {
     padding: 0 192px 0 53px;
+  }
+  &__description {
+    margin-bottom: 44px;
   }
 }
 .review {
   background-color: white;
   padding: 30px 30px 28px 30px;
-  margin-bottom: 15px;
   border-bottom: 4px solid rgba(1, 133, 208, 1);
   width: 519px;
   &__text {
@@ -35,7 +40,7 @@
       line-height: 22px;
     }
     &__job {
-      color: $light-grey;
+      color: $light-grey-text;
     }
   }
 }

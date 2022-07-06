@@ -2,9 +2,18 @@
 $main-background: rgba(243, 198, 189, 1);
 $button-color: rgba(48, 64, 196, 1);
 $hover-background: rgba(49, 65, 197, 1);
+$light-grey-bg: rgba(244, 245, 247, 1);
+$light-blue-bg: rgba(0, 161, 198, 0.07);
 
 //fonts
 
 $main-font-size: 24px;
 $main-text-color: rgba(43, 41, 45, 1);
-$light-grey: rgba(43, 41, 45, 0.6);
+$light-grey-text: rgba(43, 41, 45, 0.6);
+
+// common
+$white: rgba(255, 255, 255, 1);
+
+// borders
+$light-grey-border: rgba(43, 41, 45, 0.2);
+$border-radius: 2px;

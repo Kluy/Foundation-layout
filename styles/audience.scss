@@ -1,7 +1,7 @@
 .audience {
   max-width: 1400px;
   padding: 108px 130px 110px 130px;
-  background-color: rgba(0, 161, 198, 0.07);
+  background-color: $light-blue-bg;
   &__section-main {
     width: 555px;
     text-align: center;
@@ -21,10 +21,16 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
     inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
-  &__caption {
+  &__title {
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
     padding-top: 22px;
+  }
+  &:hover {
+    background-color: rgba(49, 65, 197, 1);
+    .user-card__title {
+      color: $white;
+    }
   }
 }
