@@ -56,7 +56,7 @@
           their behaviors.
         </div>
         <button class="button">Get started</button>
-        <button class="button button--white">Learn more</button>
+        <button class="button button_white">Learn more</button>
       </div>
 
       <!-- <img
@@ -113,38 +113,45 @@
     </section>
     <section class="features">
       <div class="content">
-        <h4 class="content__title">Features</h4>
-        <h2 class="content__subtitle">Easily find leads and customers</h2>
+        <h4 class="features__title">Features</h4>
+        <h2>Easily find leads and customers</h2>
         <p class="content__description">
           Send one-off and automated email, push, and in-app messages to people.
           Create better stories.
         </p>
-        <div>
-          <img
-            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-compas.png"
-            alt="Compas"
-          />
-          <h4 class="features__title">Acquire new customers</h4>
-          <p class="features__description">
+        <div class="feature">
+          <div class="feature__header">
+            <img
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-compas.png"
+              alt="Compas"
+            />
+            <h4 class="feature__title">Acquire new customers</h4>
+          </div>
+          <p class="feature__description">
             Everything you need to start building – including open-source code,
             documentation.
           </p>
         </div>
-        <div>
-          <img
-            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-building.png"
-            alt="Building"
-          />
 
-          <h4 class="features__title">Engage users</h4>
+        <div class="feature">
+          <div class="feature__header">
+            <img
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-building.png"
+              alt="Building"
+            />
+
+            <h4 class="feature__title">Engage users</h4>
+          </div>
         </div>
-        <div>
-          <img
-            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-bucket.png"
-            alt="Bucket"
-          />
+        <div class="feature">
+          <div class="feature__header">
+            <img
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-bucket.png"
+              alt="Bucket"
+            />
 
-          <h4 class="features__title">Develop across platforms</h4>
+            <h4 class="feature__title">Develop across platforms</h4>
+          </div>
         </div>
       </div>
       <!-- <img
@@ -163,8 +170,8 @@
 
       <div>
         <div class="content">
-          <h4 class="content__title">Team Inbox</h4>
-          <h2 class="content__subtitle">Manage conversations</h2>
+          <h4 class="inbox__title">Team Inbox</h4>
+          <h2>Manage conversations</h2>
           <p class="content__description">
             One place to manage and respond to all conversations with leads and
             users. Receive messages from leads.
@@ -182,7 +189,7 @@
               />
               <div class="review__author__name">
                 <p><b>Viella Malkovich</b></p>
-                <p>Creative Director at Johnson</p>
+                <p class="review__author__job">Creative Director at Johnson</p>
               </div>
             </div>
           </div>
@@ -190,22 +197,163 @@
       </div>
     </section>
     <section class="communication">
-      <div class="content">
-        <h4 class="content__title">Communicate Better</h4>
-        <h2 class="content__subtitle">Built for busy small teams</h2>
-        <p class="content__description">
-          Three products that can be used independently or combined together for
-          your company’s needs.
-        </p>
-        <button class="button">Get started</button>
+      <div class="communication__block">
+        <div class="communication__content">
+          <h4 class="communication__title">Communicate Better</h4>
+          <h2>Built for busy small teams</h2>
+          <p class="content__description">
+            Three products that can be used independently or combined together
+            for your company’s needs.
+          </p>
+          <button class="button">Get started</button>
+          <div class="line"></div>
+        </div>
+        <figure class="communication__figure">
+          <img
+            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/hand-with-phone.png"
+            alt="Hand eith phone"
+          />
+          <figcaption>A better way to acquire new users</figcaption>
+        </figure>
       </div>
-      <figure class="communication__figure">
-        <img
-          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/hand-with-phone.png"
-          alt="Hand eith phone"
-        />
-        <figcaption>A better way to acquire new users</figcaption>
-      </figure>
+      <div class="communication__block">
+        <div class="communication__item">
+          <b> Subscriptions.</b> Foundation works with the tools and services
+          you already use every day.
+          <p>
+            <b>
+              <a href="#">Learn more about subscriptions</a>
+            </b>
+          </p>
+        </div>
+        <div class="communication__item">
+          <b>Felxible Hours.</b> Get started with our simple snippet of
+          JavaScript or easy to install SDKs for iOS and Android.
+          <p>
+            <b>
+              <a href="#">Get more info about hours</a>
+            </b>
+          </p>
+        </div>
+        <div class="communication__item">
+          <b> Fast Communication.</b> We offer measures like 2FA and SSO to
+          ensure the safety of your data.
+          <p>
+            <b>
+              <a href="#">Communication guidelines</a>
+            </b>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="audience">
+      <div class="audience__section-main">
+        <h4>Engage Visitors</h4>
+        <h2>Understand your audience</h2>
+        <div class="content__description">
+          Early stage company? Eligible applicants get all of our products for
+          just $49 a month.
+        </div>
+        <button class="button">Get started</button>
+        <button class="button button_white button_black-text">
+          Learn more
+        </button>
+      </div>
+      <div class="audience__section">
+        <div class="user-card">
+          <img
+            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-1.png"
+            alt="Developers"
+          />
+          <p class="user-card__caption">Developers</p>
+        </div>
+        <div class="user-card">
+          <img
+            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-2.png"
+            alt="Entertainment"
+          />
+          <p class="user-card__caption">Entertainment</p>
+        </div>
+        <div class="user-card">
+          <img
+            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-3.png"
+            alt="Athletes"
+          />
+          <p class="user-card__caption">Athletes</p>
+        </div>
+        <div class="user-card">
+          <img
+            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/user-4.png"
+            alt="Creators"
+          />
+          <p class="user-card__caption">Creators</p>
+        </div>
+      </div>
+    </section>
+    <section class="customers">
+      <img
+        class="customers__logo"
+        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-nyt.png"
+        alt="Logo New York Times"
+      />
+      <img
+        class="customers__logo"
+        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-forbes.png"
+        alt="Logo Forbs"
+      />
+      <img
+        class="customers__logo"
+        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-apple.png"
+        alt="Logo Apple"
+      />
+      <img
+        class="customers__logo"
+        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-mashable.png"
+        alt="Logo Mashable"
+      />
+      <img
+        class="customers__logo"
+        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-wsj.png"
+        alt="Logo WSJ"
+      />
+      <img
+        class="customers__logo"
+        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/logo-google.png"
+        alt="Logo Google"
+      />
+    </section>
+    <section class="feedback">
+      <div class="feedback__section-main">
+        <p class="feedback__title">
+          <b>
+            Trusted by the world’s most innovative businesses – big and small</b
+          >
+        </p>
+        <p class="feedback__text">
+          “Comprehensive set of startup tools for all imaginable entrepreneurial
+          needs. Create landing pages, send emails, find freelancers. Perfect
+          for sales, marketing, and support”
+        </p>
+        <div class="review__author__name">
+          <p><b>Viella Malkovich</b></p>
+          <p class="review__author__job">Creative Director at Johnson</p>
+        </div>
+        <div class="dots">
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </div>
+    </section>
+    <section class="hiring">
+      <div class="hiring__section-main">
+        <h2 class="hiring__title">We’re hiring</h2>
+        <p class="hiring__text">
+          We’re a team of lifelong learners. We’re equal parts left and right
+          brained.
+        </p>
+        <button class="button hiring__button">More about Company</button>
+      </div>
     </section>
   </body>
 </html>

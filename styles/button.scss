@@ -2,16 +2,19 @@
   border: 0;
   width: 160px;
   height: 48px;
-  color: white;
+  color: rgba(255, 255, 255, 1);
   font-weight: 700;
   font-size: 18px;
   line-height: 13px;
   background-color: $button-color;
-  border-radius: $border-radius;
-  &--white {
-    background-color: white;
+  border-radius: 2px;
+  &_white {
+    background-color: rgba(255, 255, 255, 1);
     color: $button-color;
     margin-left: 10px;
     width: 158px;
+  }
+  &_black-text {
+    color: rgba(0, 0, 0, 1);
   }
 }

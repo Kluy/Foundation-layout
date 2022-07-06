@@ -4,6 +4,9 @@
   background-color: rgba(252, 240, 227, 1);
   display: flex;
   align-items: flex-end;
+  &__title {
+    color: rgba(241, 89, 43, 1);
+  }
   &__figure {
     padding: 0 192px 0 53px;
   }
@@ -22,12 +25,17 @@
   &__author {
     display: flex;
     align-items: center;
-    font-size: 16px;
-    line-height: 22px;
     padding-top: 26px;
     height: 44px;
     &__avatar {
       margin-right: 11px;
+    }
+    &__name {
+      font-size: 16px;
+      line-height: 22px;
+    }
+    &__job {
+      color: $figcaption-color;
     }
   }
 }
