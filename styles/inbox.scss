@@ -1,18 +1,20 @@
 .inbox {
-  max-width: 1400px;
-  padding: 115px 99px 101px 130px;
+  padding: 115px 99px 101px 193px;
   background-color: rgba(252, 240, 227, 1);
   display: flex;
   align-items: flex-end;
+  justify-content: space-between;
+  &__main {
+    padding-left: 30px;
+    max-width: 461px;
+  }
   &__title {
     color: rgba(241, 89, 43, 1);
   }
   &__review {
     margin-bottom: 15px;
   }
-  &__figure {
-    padding: 0 192px 0 53px;
-  }
+
   &__description {
     margin-bottom: 44px;
   }
@@ -21,7 +23,7 @@
   background-color: white;
   padding: 30px 30px 28px 30px;
   border-bottom: 4px solid rgba(1, 133, 208, 1);
-  width: 519px;
+  max-width: 519px;
   &__text {
     font-size: 20px;
     line-height: 28px;

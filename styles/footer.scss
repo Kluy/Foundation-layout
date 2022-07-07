@@ -1,26 +1,25 @@
 .footer {
-  max-width: 1400px;
-  padding: 44px 130px 15px 130px;
-  &__container {
+  &__main {
     display: flex;
+    padding: 44px 0 47px 130px;
   }
   &__description {
     font-size: 18px;
     line-height: 26px;
     color: $light-grey-text;
     width: 360px;
-    margin: 26px 0 25px 0;
+    margin: 26px 126px 25px 0;
   }
+
   &__navigation {
+    padding: 0 130px;
     display: flex;
+    align-items: center;
+    height: 50px;
+    border-top: 1px solid $border-light-grey;
   }
 }
 
-.social-links {
-  &__item {
-    text-decoration: none;
-  }
-}
 .additional-navigation {
   display: flex;
 
@@ -36,10 +35,30 @@
   }
   &__link {
     font-size: 18px;
-    line-height: 40px;
+    line-height: 38px;
   }
   &__link > a {
     color: $light-grey-text;
+    text-decoration: none;
+  }
+}
+
+.terms {
+  font-size: 14px;
+  line-height: 22px;
+  color: $light-grey-text;
+  &__link {
+    margin-right: 21px;
+    text-decoration: none;
+    color: $light-grey-text;
+  }
+}
+
+.social-links {
+  margin-left: auto;
+
+  &__link {
+    margin-right: 20px;
     text-decoration: none;
   }
 }

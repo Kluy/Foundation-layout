@@ -1,5 +1,7 @@
 @import 'var.scss';
 @import 'button.scss';
+@import 'breakpoints.scss';
+
 @import 'header.scss';
 @import 'about.scss';
 @import 'customers.scss';
@@ -13,9 +15,6 @@
 @import 'footer.scss';
 // @import '';
 // @import '';
-// @import '';
-
-@import 'sections-content.scss';
 
 * {
   box-sizing: border-box;
@@ -23,13 +22,15 @@
 html {
   font-family: 'Work Sans', sans-serif;
   font-size: $main-font-size;
-  line-height: 34px;
+  line-height: $main-line-height;
   color: $main-text-color;
+  max-width: 1400px;
 }
 h1,
 h2,
 h3,
 h4,
+h5,
 p,
 figure {
   margin: 0;
@@ -43,7 +44,6 @@ ul {
 
 h4 {
   font-size: 22px;
-  line-height: 32px;
   margin-bottom: 24px;
 }
 
@@ -54,25 +54,10 @@ h2 {
   margin-bottom: 30px;
 }
 
-.section-content-width {
-  width: 462px;
-}
-
-.section-description {
-  margin-bottom: 44px;
-}
-
 figcaption {
   font-size: 14px;
   line-height: 22px;
   margin-top: 15px;
   color: $light-grey-text;
   text-align: center;
-}
-
-.icon-arrow {
-  display: block;
-  width: 7px;
-  height: 12px;
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png);
 }

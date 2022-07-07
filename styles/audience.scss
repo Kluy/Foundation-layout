@@ -1,13 +1,15 @@
 .audience {
-  max-width: 1400px;
   padding: 108px 130px 110px 130px;
   background-color: $light-blue-bg;
-  &__section-main {
+  &__header {
     width: 555px;
     text-align: center;
     margin: 0 auto;
   }
-  &__section {
+  &__description {
+    margin-bottom: 34px;
+  }
+  &__users {
     padding-top: 111px;
     display: flex;
     justify-content: space-between;
@@ -15,6 +17,7 @@
 }
 .user-card {
   width: 262px;
+  cursor: pointer;
   text-align: center;
   background-color: white;
   padding: 22px 62px 33px 62px;
