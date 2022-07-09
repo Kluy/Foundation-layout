@@ -1,0 +1,25 @@
+.tips {
+  display: none;
+  @include large-screen {
+    display: block;
+  }
+
+  padding: 10px 0;
+  &__wrapper {
+    padding: 40px 0;
+    border-bottom: 1px solid $border-grey;
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+  &__section {
+    padding: 0 15px;
+  }
+  &__title {
+    color: $green;
+  }
+  &__figure {
+    margin-top: 30px;
+    width: 290px;
+  }
+}

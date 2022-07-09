@@ -1,18 +1,31 @@
 .audience {
-  padding: 108px 130px 110px 130px;
+  padding: 108px 0 110px 0;
   background-color: $light-blue-bg;
+  @include large-screen {
+    padding: 50px 15px;
+  }
   &__header {
-    width: 555px;
+    max-width: 555px;
     text-align: center;
     margin: 0 auto;
   }
   &__description {
     margin-bottom: 34px;
+    @include large-screen {
+      margin-bottom: 30px;
+    }
   }
   &__users {
-    padding-top: 111px;
+    max-width: 1140px;
+    margin-top: 111px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    @include large-screen {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 25px;
+    }
   }
 }
 .user-card {
@@ -24,6 +37,9 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
     inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
+  @include large-screen {
+    margin-top: 15px;
+  }
   &__title {
     font-weight: 700;
     font-size: 22px;

@@ -2,26 +2,62 @@
   &__main {
     display: flex;
     padding: 44px 0 47px 130px;
+    @include large-screen {
+      display: block;
+      padding: 0;
+    }
+  }
+  &__wrapper {
+    @include large-screen {
+      padding: 40px 15px;
+    }
+  }
+  &__logo {
+    margin-right: 126px;
+    @include large-screen {
+      display: block;
+      margin-right: 0;
+      text-align: center;
+      height: auto;
+      padding-bottom: 24px;
+    }
   }
   &__description {
     font-size: 18px;
     line-height: 26px;
     color: $light-grey-text;
     width: 360px;
-    margin: 26px 126px 25px 0;
+    margin: 26px 0 25px 0;
+    @include large-screen {
+      display: none;
+    }
   }
 
   &__navigation {
-    padding: 0 130px;
     display: flex;
+    padding: 0 130px;
     align-items: center;
     height: 50px;
     border-top: 1px solid $border-light-grey;
+    @include large-screen {
+      display: block;
+      border-top: 0;
+      padding: 0 15px;
+    }
+  }
+  &__stores {
+    @include large-screen {
+      text-align: center;
+    }
   }
 }
 
 .additional-navigation {
   display: flex;
+  @include large-screen {
+    display: block;
+    border-top: 1px solid $border-light-grey;
+  }
 
   &__title {
     font-weight: 700;
@@ -32,6 +68,11 @@
   &__list {
     width: 265px;
     margin-right: 29px;
+    @include large-screen {
+      width: auto;
+      margin-right: 0;
+      padding: 30px 15px;
+    }
   }
   &__link {
     font-size: 18px;
@@ -47,6 +88,9 @@
   font-size: 14px;
   line-height: 22px;
   color: $light-grey-text;
+  @include large-screen {
+    padding-bottom: 31px;
+  }
   &__link {
     margin-right: 21px;
     text-decoration: none;
@@ -56,6 +100,9 @@
 
 .social-links {
   margin-left: auto;
+  @include small-screen {
+    padding-bottom: 22px;
+  }
 
   &__link {
     margin-right: 20px;

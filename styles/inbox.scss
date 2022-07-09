@@ -2,21 +2,42 @@
   padding: 115px 99px 101px 193px;
   background-color: rgba(252, 240, 227, 1);
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: space-between;
+  @include medium-screen2 {
+    padding: 50px 15px;
+    display: block;
+  }
+
+  &__img {
+    max-width: 100%;
+    margin-top: 33px;
+    @include medium-screen2 {
+      margin-bottom: 32px;
+      width: 290px;
+    }
+  }
+  &__figcaption {
+    @include medium-screen2 {
+      display: none;
+    }
+  }
   &__main {
     padding-left: 30px;
     max-width: 461px;
+    @include medium-screen2 {
+      padding-left: 0;
+    }
   }
   &__title {
-    color: rgba(241, 89, 43, 1);
-  }
-  &__review {
-    margin-bottom: 15px;
+    color: $inbox-title;
   }
 
   &__description {
     margin-bottom: 44px;
+    @include medium-screen2 {
+      margin-bottom: 30px;
+    }
   }
 }
 .review {

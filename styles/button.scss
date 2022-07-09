@@ -12,11 +12,33 @@
     color: $button-color;
     margin-left: 10px;
     width: 158px;
+    @include small-screen {
+      margin-left: 0;
+      margin-top: 12px;
+    }
   }
   &_black-text {
     color: rgba(0, 0, 0, 1);
   }
+
+  &_audience {
+    @include small-screen {
+      width: 100%;
+    }
+  }
   &_hiring {
     width: 247px;
+    @include small-screen {
+      width: 100%;
+    }
+  }
+  &_order {
+    @include medium-screen {
+      width: 385px;
+      margin-top: 12px;
+    }
+    @include small-screen {
+      width: 100%;
+    }
   }
 }

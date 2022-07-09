@@ -1,34 +1,39 @@
 .header {
-  padding: 41px 130px 76px 130px;
+  padding: 41px 0 0 15px;
   background-color: rgba(243, 198, 189, 1);
-  display: flex;
-}
-.logo {
-  height: 60px;
-  display: flex;
-  align-items: center;
-  &__image {
-    margin-right: 15px;
+  @include medium-screen2 {
+    background-color: $white;
+    padding: 0 0 0 15px;
   }
-  &__name {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 25px;
-    color: rgba(43, 41, 45, 1);
+  &__wrapper {
+    margin: 0 auto;
+    max-width: 1140px;
+    display: flex;
+    height: 64px;
   }
-  &__description {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-    color: rgba(43, 41, 45, 0.6);
+  &__hidden-menu {
+    width: 58px;
+    height: 64px;
+    line-height: 64px;
+    vertical-align: middle;
+    text-align: center;
+    border-left: 1px solid $border-black;
+
+    margin-left: auto;
+    display: none;
+    @include medium-screen2 {
+      display: block;
+    }
   }
 }
 
 .navigation {
-  height: 60px;
   margin-left: auto;
   display: flex;
   align-items: center;
+  @include medium-screen2 {
+    display: none;
+  }
   &__item {
     font-size: 18px;
     margin-right: 50px;
@@ -43,27 +48,5 @@
   }
   &__arrow {
     margin-right: 56px;
-  }
-}
-
-.headline {
-  max-width: 1400px;
-  padding: 0 130px;
-  background-color: $main-background;
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png);
-  background-repeat: no-repeat;
-  background-position-x: right;
-  height: 533px;
-  &__title {
-    max-width: 754px;
-    font-weight: 700;
-    font-size: 80px;
-    line-height: 78px;
-  }
-  &__description {
-    max-width: 456px;
-    font-size: 24px;
-    line-height: 34px;
-    padding: 34px 0 58px 0;
   }
 }

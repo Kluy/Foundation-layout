@@ -1,0 +1,35 @@
+.logo {
+  display: flex;
+  align-items: center;
+  &__image {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    @include medium-screen2 {
+      margin-right: 13px;
+      width: 48px;
+      height: 48px;
+    }
+  }
+  &__image_footer {
+    @include large-screen {
+      margin-right: 0;
+      margin-bottom: 14px;
+    }
+  }
+  &__name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgba(43, 41, 45, 1);
+  }
+  &__description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(43, 41, 45, 0.6);
+    @include medium-screen2 {
+      display: none;
+    }
+  }
+}

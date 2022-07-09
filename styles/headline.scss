@@ -1,0 +1,45 @@
+.headline {
+  padding: 76px 0 126px 0;
+  background-color: $main-background;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png);
+  background-repeat: no-repeat;
+  background-position: right 83px;
+  @include large-screen {
+    background-image: none;
+    padding: 35px 15px;
+  }
+  &__wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  &__title {
+    max-width: 754px;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 78px;
+    letter-spacing: -0.5px;
+    @include large-screen {
+      font-size: 50px;
+      line-height: 50px;
+      letter-spacing: -0.3125px;
+      max-width: 456px;
+    }
+  }
+  &__description {
+    max-width: 456px;
+    font-size: 24px;
+    line-height: 34px;
+    padding: 34px 0 58px 0;
+    @include large-screen {
+      padding: 24px 0 30px 0;
+    }
+  }
+  &__img {
+    display: none;
+    @include large-screen {
+      display: block;
+      max-width: 100%;
+      margin-top: 33px;
+    }
+  }
+}

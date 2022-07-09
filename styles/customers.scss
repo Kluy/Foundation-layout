@@ -1,9 +1,59 @@
 .customers {
-  padding: 30px 130px 0 130px;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  &__wrapper {
+    padding-top: 30px;
+    width: 1250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include medium-screen2 {
+      display: block;
+      padding-top: 0;
+    }
+  }
+  &__wrapper-small {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    @include medium-screen2 {
+      width: 100%;
+      border-bottom: 1px solid $border-grey;
+    }
+  }
+
+  &__logo-box {
+    @include medium-screen2 {
+      width: 100%;
+      height: 94px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-right: 1px solid $border-grey;
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
   &__logo {
     filter: brightness(0);
+    @include medium-screen2 {
+      &_nyt {
+        width: 77px;
+      }
+      &_forbes {
+        width: 78px;
+      }
+      &_apple {
+        width: 35px;
+      }
+      &_wsj {
+        width: 49px;
+      }
+      &_google {
+        width: 75px;
+      }
+    }
   }
 }
