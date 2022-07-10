@@ -89,19 +89,27 @@
   }
 }
 
-.header__inner {
-  padding: 41px 130px 0 130px;
+.header {
   background-color: rgb(243, 198, 189);
 }
 @media screen and (max-width: 800px) {
-  .header__inner {
+  .header {
     background-color: rgb(255, 255, 255);
+  }
+}
+.header__inner {
+  padding: 41px 15px 76px 15px;
+}
+@media screen and (max-width: 800px) {
+  .header__inner {
     padding: 0 0 0 15px;
   }
 }
 .header__wrapper {
-  height: 64px;
+  margin: 0 auto;
+  max-width: 1140px;
   display: flex;
+  height: 64px;
 }
 .header__hidden-menu {
   width: 58px;
@@ -146,17 +154,26 @@
   margin-right: 56px;
 }
 
-.headline__inner {
-  padding: 76px 0 126px 130px;
+.headline {
+  z-index: 0;
+  position: relative;
+  padding: 0 0 126px 0;
   background-color: rgb(243, 198, 189);
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png);
-  background-repeat: no-repeat;
-  background-position: right 83px;
 }
 @media screen and (max-width: 1200px) {
-  .headline__inner {
-    background-image: none;
-    padding: 35px 15px;
+  .headline {
+    padding: 35px 0 36px 0;
+    align-items: center;
+  }
+}
+.headline__wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1200px) {
+  .headline__wrapper {
+    max-width: 1000px;
+    padding: 0 15px;
   }
 }
 .headline__title {
@@ -174,6 +191,11 @@
     max-width: 456px;
   }
 }
+@media screen and (max-width: 420px) {
+  .headline__title {
+    width: 290px;
+  }
+}
 .headline__description {
   max-width: 456px;
   font-size: 24px;
@@ -185,14 +207,25 @@
     padding: 24px 0 30px 0;
   }
 }
+@media screen and (max-width: 420px) {
+  .headline__description {
+    width: 290px;
+  }
+}
 .headline__img {
-  display: none;
+  z-index: -1;
+  top: 8px;
+  right: 25px;
+  position: absolute;
 }
 @media screen and (max-width: 1200px) {
   .headline__img {
+    position: relative;
     display: block;
     max-width: 100%;
     margin-top: 33px;
+    top: 0;
+    right: 0;
   }
 }
 
@@ -528,6 +561,11 @@
   max-width: 555px;
   text-align: center;
   margin: 0 auto;
+}
+@media screen and (max-width: 420px) {
+  .audience__header {
+    width: 290px;
+  }
 }
 .audience__description {
   margin-bottom: 34px;

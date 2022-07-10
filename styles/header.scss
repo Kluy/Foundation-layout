@@ -1,17 +1,19 @@
 .header {
+  background-color: $header-bg;
+  @include medium-screen2 {
+    background-color: $white;
+  }
   &__inner {
-    padding: 41px 130px 0 130px;
-    background-color: $header-bg;
-
+    padding: 41px 15px 76px 15px;
     @include medium-screen2 {
-      background-color: $white;
       padding: 0 0 0 15px;
     }
   }
   &__wrapper {
-    height: 64px;
-
+    margin: 0 auto;
+    max-width: 1140px;
     display: flex;
+    height: 64px;
   }
   &__hidden-menu {
     width: 58px;
