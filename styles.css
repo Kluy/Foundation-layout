@@ -595,6 +595,7 @@
 @media screen and (max-width: 1200px) {
   .user-card {
     margin-top: 15px;
+    width: 290px;
   }
 }
 .user-card__img {

@@ -41,6 +41,7 @@
     inset 0px 1px 0px $white01;
   @include large-screen {
     margin-top: 15px;
+    width: 290px;
   }
   &__img {
     height: 195px;
