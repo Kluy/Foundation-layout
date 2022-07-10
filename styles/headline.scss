@@ -37,9 +37,6 @@
     @include large-screen {
       padding: 24px 0 30px 0;
     }
-    @include small-screen {
-      width: 290px;
-    }
   }
   &__img {
     z-index: -1;

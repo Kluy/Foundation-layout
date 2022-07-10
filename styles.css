@@ -203,11 +203,6 @@
     padding: 24px 0 30px 0;
   }
 }
-@media screen and (max-width: 420px) {
-  .headline__description {
-    width: 290px;
-  }
-}
 .headline__img {
   z-index: -1;
   top: 8px;
