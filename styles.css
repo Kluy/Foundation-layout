@@ -174,7 +174,6 @@
 }
 @media screen and (max-width: 1200px) {
   .headline__wrapper {
-    max-width: 1000px;
     padding: 0 15px;
   }
 }
@@ -191,11 +190,6 @@
     line-height: 50px;
     letter-spacing: -0.3125px;
     max-width: 456px;
-  }
-}
-@media screen and (max-width: 420px) {
-  .headline__title {
-    width: 290px;
   }
 }
 .headline__description {
@@ -601,7 +595,6 @@
 @media screen and (max-width: 1200px) {
   .user-card {
     margin-top: 15px;
-    width: 290px;
   }
 }
 .user-card__img {

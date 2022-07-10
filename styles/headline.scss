@@ -13,8 +13,6 @@
     max-width: 1140px;
     margin: 0 auto;
     @include large-screen {
-      max-width: 1000px;
-
       padding: 0 15px;
     }
   }
@@ -29,9 +27,6 @@
       line-height: 50px;
       letter-spacing: -0.3125px;
       max-width: 456px;
-    }
-    @include small-screen {
-      width: 290px;
     }
   }
   &__description {
