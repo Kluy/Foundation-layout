@@ -22,13 +22,14 @@
 * {
   box-sizing: border-box;
 }
-html {
+.page {
   font-family: 'Work Sans', sans-serif;
   font-size: $main-font-size;
   line-height: $main-line-height;
   color: $grey;
-  max-width: 1400px;
   min-width: 320px;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 h1,
 h2,
