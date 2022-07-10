@@ -27,7 +27,7 @@
 }
 @media screen and (max-width: 610px) {
   .button_audience {
-    width: 100%;
+    width: 290px;
   }
 }
 .button_hiring {
@@ -35,7 +35,7 @@
 }
 @media screen and (max-width: 610px) {
   .button_hiring {
-    width: 100%;
+    width: 290px;
   }
 }
 @media screen and (max-width: 610px) {

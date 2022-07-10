@@ -25,13 +25,13 @@
 
   &_audience {
     @include medium-screen {
-      width: 100%;
+      width: 290px;
     }
   }
   &_hiring {
     width: 247px;
     @include medium-screen {
-      width: 100%;
+      width: 290px;
     }
   }
   &_order {
