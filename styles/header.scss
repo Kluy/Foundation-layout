@@ -1,10 +1,13 @@
-.header {
+.wrapper-header {
   padding: 41px 15px 0 15px;
   background-color: $header-bg;
   @include medium-screen2 {
     background-color: $white;
     padding: 0 0 0 15px;
   }
+}
+
+.header {
   &__wrapper {
     margin: 0 auto;
     max-width: 1140px;

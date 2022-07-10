@@ -88,16 +88,17 @@
   }
 }
 
-.header {
+.wrapper-header {
   padding: 41px 15px 0 15px;
   background-color: rgb(243, 198, 189);
 }
 @media screen and (max-width: 800px) {
-  .header {
+  .wrapper-header {
     background-color: rgb(255, 255, 255);
     padding: 0 0 0 15px;
   }
 }
+
 .header__wrapper {
   margin: 0 auto;
   max-width: 1140px;
@@ -146,13 +147,21 @@
   margin-right: 56px;
 }
 
-.headline {
+.wrapper-headline {
   padding: 76px 0 126px 0;
+  background-color: rgb(243, 198, 189);
   background-color: rgb(243, 198, 189);
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png);
   background-repeat: no-repeat;
   background-position: right 83px;
 }
+@media screen and (max-width: 1200px) {
+  .wrapper-headline {
+    background-image: none;
+    padding: 35px 15px;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .headline {
     background-image: none;
@@ -555,6 +564,7 @@
 
 .user-card {
   width: 262px;
+  height: 300px;
   cursor: pointer;
   text-align: center;
   background-color: rgb(255, 255, 255);
@@ -741,7 +751,7 @@
 }
 
 .order {
-  padding: 73px 224px;
+  padding: 73px 228px 73px 224px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -758,6 +768,7 @@
   margin-right: 15px;
 }
 .order__title {
+  font-weight: 700;
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.25px;
@@ -982,7 +993,6 @@ h4 {
 }
 @media screen and (max-width: 1200px) {
   h4 {
-    font-size: 20px;
     margin-bottom: 17px;
   }
 }
@@ -998,6 +1008,7 @@ h2 {
   h2 {
     font-size: 40px;
     line-height: 40px;
+    margin-bottom: 18px;
   }
 }
 
