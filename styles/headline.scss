@@ -1,20 +1,19 @@
-.headline {
+.headline-wrapper {
   z-index: 0;
   position: relative;
   background-color: $header-bg;
+}
 
-  // &__inner {
-  //   @include large-screen {
-  //   }
-  // }
+.headline {
+  max-width: 1140px;
+  padding: 0 0 126px 0;
+
+  margin: 0 auto;
+  @include large-screen {
+    padding: 35px 15px 36px 15px;
+  }
+
   &__wrapper {
-    max-width: 1140px;
-    padding: 0 0 126px 0;
-
-    margin: 0 auto;
-    @include large-screen {
-      padding: 35px 15px 36px 15px;
-    }
   }
   &__title {
     max-width: 754px;
