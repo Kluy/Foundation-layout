@@ -1,23 +1,16 @@
-.wrapper-headline {
-  padding: 76px 0 126px 0;
-  background-color: $header-bg;
-  background-color: $header-bg;
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png);
-  background-repeat: no-repeat;
-  background-position: right 83px;
-  @include large-screen {
-    background-image: none;
-    padding: 35px 15px;
-  }
-}
 .headline {
-  @include large-screen {
-    background-image: none;
-    padding: 35px 15px;
+  &__inner {
+    padding: 76px 0 126px 130px;
+    background-color: $header-bg;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png);
+    background-repeat: no-repeat;
+    background-position: right 83px;
+    @include large-screen {
+      background-image: none;
+      padding: 35px 15px;
+    }
   }
   &__wrapper {
-    max-width: 1140px;
-    margin: 0 auto;
   }
   &__title {
     max-width: 754px;

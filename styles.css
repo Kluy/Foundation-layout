@@ -5,6 +5,7 @@
   color: rgb(255, 255, 255);
   font-weight: 700;
   font-size: 18px;
+  line-height: 13px;
   background-color: rgb(48, 64, 196);
   border-radius: 2px;
 }
@@ -88,22 +89,19 @@
   }
 }
 
-.wrapper-header {
-  padding: 41px 15px 0 15px;
+.header__inner {
+  padding: 41px 130px 0 130px;
   background-color: rgb(243, 198, 189);
 }
 @media screen and (max-width: 800px) {
-  .wrapper-header {
+  .header__inner {
     background-color: rgb(255, 255, 255);
     padding: 0 0 0 15px;
   }
 }
-
 .header__wrapper {
-  margin: 0 auto;
-  max-width: 1140px;
-  display: flex;
   height: 64px;
+  display: flex;
 }
 .header__hidden-menu {
   width: 58px;
@@ -133,6 +131,7 @@
 }
 .navigation__item {
   font-size: 18px;
+  line-height: 25px;
   margin-right: 50px;
   text-decoration: none;
   color: rgb(43, 41, 45);
@@ -147,30 +146,18 @@
   margin-right: 56px;
 }
 
-.wrapper-headline {
-  padding: 76px 0 126px 0;
-  background-color: rgb(243, 198, 189);
+.headline__inner {
+  padding: 76px 0 126px 130px;
   background-color: rgb(243, 198, 189);
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png);
   background-repeat: no-repeat;
   background-position: right 83px;
 }
 @media screen and (max-width: 1200px) {
-  .wrapper-headline {
+  .headline__inner {
     background-image: none;
     padding: 35px 15px;
   }
-}
-
-@media screen and (max-width: 1200px) {
-  .headline {
-    background-image: none;
-    padding: 35px 15px;
-  }
-}
-.headline__wrapper {
-  max-width: 1140px;
-  margin: 0 auto;
 }
 .headline__title {
   max-width: 754px;
@@ -332,6 +319,7 @@
 }
 .features__description {
   margin-bottom: 42px;
+  line-height: 34px;
 }
 .features__img-right {
   max-width: 686px;
@@ -432,6 +420,7 @@
 }
 .inbox__description {
   margin-bottom: 44px;
+  line-height: 34px;
 }
 @media screen and (max-width: 800px) {
   .inbox__description {
@@ -495,6 +484,7 @@
 }
 .communication__description {
   margin-bottom: 39px;
+  line-height: 34px;
 }
 .communication__figure {
   max-width: 425px;
@@ -541,6 +531,7 @@
 }
 .audience__description {
   margin-bottom: 34px;
+  line-height: 34px;
 }
 @media screen and (max-width: 1200px) {
   .audience__description {
@@ -566,22 +557,26 @@
   width: 262px;
   height: 300px;
   cursor: pointer;
-  text-align: center;
+  padding: 22px 0 33px 0;
   background-color: rgb(255, 255, 255);
-  padding: 22px 62px 33px 62px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgb(255, 255, 255);
+  text-align: center;
   border-radius: 8px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgb(255, 255, 255);
 }
 @media screen and (max-width: 1200px) {
   .user-card {
     margin-top: 15px;
+    width: 290px;
   }
 }
+.user-card__img {
+  height: 195px;
+}
 .user-card__title {
+  padding-top: 22px;
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
-  padding-top: 22px;
 }
 .user-card:hover {
   background-color: rgb(49, 65, 197);
@@ -624,6 +619,7 @@
 }
 .feedback__description {
   margin: 0 auto;
+  line-height: 34px;
   max-width: 750px;
   padding: 28px 0 34px 0;
 }
@@ -667,6 +663,7 @@
 }
 .hiring__text {
   margin-bottom: 28px;
+  line-height: 34px;
   max-width: 555px;
 }
 .hiring__vacancies {
@@ -751,10 +748,12 @@
 }
 
 .order {
-  padding: 73px 228px 73px 224px;
+  padding: 73px 0 72px 0;
+  max-width: 1400px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   background-color: rgb(244, 245, 247);
 }
 @media screen and (max-width: 1200px) {
@@ -765,7 +764,7 @@
   }
 }
 .order__img {
-  margin-right: 15px;
+  margin-right: 121px;
 }
 .order__title {
   font-weight: 700;
@@ -964,7 +963,6 @@
 .page {
   font-family: "Work Sans", sans-serif;
   font-size: 24px;
-  line-height: 34px;
   color: rgb(43, 41, 45);
   min-width: 320px;
   max-width: 1400px;
@@ -990,6 +988,7 @@ ul {
 h4 {
   font-size: 22px;
   margin-bottom: 24px;
+  line-height: 34px;
 }
 @media screen and (max-width: 1200px) {
   h4 {
