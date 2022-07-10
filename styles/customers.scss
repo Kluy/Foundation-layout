@@ -26,6 +26,7 @@
   &__logo-box {
     @include medium-screen2 {
       width: 100%;
+      min-width: 107px;
       height: 94px;
       display: flex;
       align-items: center;

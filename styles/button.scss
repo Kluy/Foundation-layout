@@ -14,7 +14,7 @@
     color: $blue-button;
     margin-left: 10px;
     width: 158px;
-    @include medium-screen {
+    @include small-screen {
       margin-left: 0;
       margin-top: 12px;
     }
@@ -24,14 +24,14 @@
   }
 
   &_audience {
-    @include medium-screen {
-      width: 290px;
+    @include small-screen {
+      width: 100%;
     }
   }
   &_hiring {
     width: 247px;
-    @include medium-screen {
-      width: 290px;
+    @include small-screen {
+      width: 100%;
     }
   }
   &_order {
