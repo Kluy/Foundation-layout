@@ -8,12 +8,13 @@
   line-height: 13px;
   background-color: $blue-button;
   border-radius: $border-radius;
+  text-transform: capitalize;
   &_white {
     background-color: $white;
     color: $blue-button;
     margin-left: 10px;
     width: 158px;
-    @include small-screen {
+    @include medium-screen {
       margin-left: 0;
       margin-top: 12px;
     }
@@ -23,13 +24,13 @@
   }
 
   &_audience {
-    @include small-screen {
+    @include medium-screen {
       width: 100%;
     }
   }
   &_hiring {
     width: 247px;
-    @include small-screen {
+    @include medium-screen {
       width: 100%;
     }
   }

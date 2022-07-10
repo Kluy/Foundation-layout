@@ -8,6 +8,7 @@
   line-height: 13px;
   background-color: rgb(48, 64, 196);
   border-radius: 2px;
+  text-transform: capitalize;
 }
 .button_white {
   background-color: rgb(255, 255, 255);
@@ -15,7 +16,7 @@
   margin-left: 10px;
   width: 158px;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 610px) {
   .button_white {
     margin-left: 0;
     margin-top: 12px;
@@ -24,7 +25,7 @@
 .button_black-text {
   color: rgb(0, 0, 0);
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 610px) {
   .button_audience {
     width: 100%;
   }
@@ -32,7 +33,7 @@
 .button_hiring {
   width: 247px;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 610px) {
   .button_hiring {
     width: 100%;
   }
@@ -157,13 +158,14 @@
 .headline {
   z-index: 0;
   position: relative;
-  padding: 0 0 126px 0;
   background-color: rgb(243, 198, 189);
 }
+.headline__inner {
+  padding: 0 0 126px 0;
+}
 @media screen and (max-width: 1200px) {
-  .headline {
+  .headline__inner {
     padding: 35px 0 36px 0;
-    align-items: center;
   }
 }
 .headline__wrapper {
@@ -562,11 +564,6 @@
   text-align: center;
   margin: 0 auto;
 }
-@media screen and (max-width: 420px) {
-  .audience__header {
-    width: 290px;
-  }
-}
 .audience__description {
   margin-bottom: 34px;
   line-height: 34px;
@@ -645,7 +642,7 @@
     padding: 0 0 40px 0;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 610px) {
   .feedback__main {
     text-align: left;
   }
@@ -680,7 +677,7 @@
   width: 8px;
   height: 8px;
   display: inline-block;
-  background-color: rgb(43, 41, 45);
+  background-color: rgba(43, 41, 45, 0.2);
   border-radius: 100%;
 }
 .dot:active {

@@ -1,11 +1,13 @@
 .headline {
   z-index: 0;
   position: relative;
-  padding: 0 0 126px 0;
   background-color: $header-bg;
-  @include large-screen {
-    padding: 35px 0 36px 0;
-    align-items: center;
+
+  &__inner {
+    padding: 0 0 126px 0;
+    @include large-screen {
+      padding: 35px 0 36px 0;
+    }
   }
   &__wrapper {
     max-width: 1140px;

@@ -14,7 +14,7 @@
       background-image: none;
       padding: 0 0 40px 0;
     }
-    @include small-screen {
+    @include medium-screen {
       text-align: left;
     }
   }
@@ -45,7 +45,7 @@
   width: 8px;
   height: 8px;
   display: inline-block;
-  background-color: $grey;
+  background-color: $light-grey02;
   border-radius: 100%;
   &:active {
     background-color: $blue;
