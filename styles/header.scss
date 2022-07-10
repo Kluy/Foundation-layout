@@ -1,6 +1,6 @@
 .header {
-  padding: 41px 0 0 15px;
-  background-color: rgba(243, 198, 189, 1);
+  padding: 41px 15px 0 15px;
+  background-color: $header-bg;
   @include medium-screen2 {
     background-color: $white;
     padding: 0 0 0 15px;
@@ -17,7 +17,7 @@
     line-height: 64px;
     vertical-align: middle;
     text-align: center;
-    border-left: 1px solid $border-black;
+    border-left: 1px solid $black015;
 
     margin-left: auto;
     display: none;
@@ -38,7 +38,7 @@
     font-size: 18px;
     margin-right: 50px;
     text-decoration: none;
-    color: $main-text-color;
+    color: $grey;
   }
   &__item:last-of-type {
     margin-right: 11px;

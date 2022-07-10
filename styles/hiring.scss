@@ -31,10 +31,15 @@
   text-align: left;
   padding: 0 34px 0 25px;
   border-radius: $border-radius * 4;
-  border: 1px solid $border-light-grey;
+  border: 1px solid $light-grey;
   background-color: $white;
+  @include medium-screen2 {
+    width: 290px;
+    height: 140px;
+    padding: 0 0 0 20px;
+  }
   &:hover {
-    background-color: $hover-background;
+    background-color: $blue-hover;
     color: $white;
     .vacancy__location {
       color: $white;
@@ -43,9 +48,19 @@
       background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right-white.png);
     }
   }
+  &__text {
+    width: 660px;
+    display: flex;
+    justify-content: space-between;
+    @include medium-screen2 {
+      display: block;
+      width: 200px;
+    }
+  }
   &__title {
-    width: 408px;
-    // flex-grow: 2;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
   }
   &__location {
     width: 232px;
@@ -54,12 +69,20 @@
     text-align: left;
     color: $light-grey-text;
   }
-}
-
-.icon-arrow {
-  display: block;
-  width: 7px;
-  height: 12px;
-  margin-left: 33px;
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png);
+  &__arrow {
+    display: block;
+    width: 7px;
+    height: 12px;
+    margin-left: 33px;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png);
+    background-repeat: no-repeat;
+    @include medium-screen2 {
+      margin-left: 0;
+      width: 50px;
+      height: 138px;
+      border-radius: 0 8px 8px 0;
+      background-color: $grey-bg;
+      background-position: center center;
+    }
+  }
 }

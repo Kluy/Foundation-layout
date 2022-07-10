@@ -26,7 +26,7 @@ html {
   font-family: 'Work Sans', sans-serif;
   font-size: $main-font-size;
   line-height: $main-line-height;
-  color: $main-text-color;
+  color: $grey;
   max-width: 1400px;
   min-width: 320px;
 }
@@ -61,6 +61,7 @@ h2 {
   font-size: 56px;
   line-height: 56px;
   margin-bottom: 30px;
+  letter-spacing: -0.5px;
   @include large-screen {
     font-size: 40px;
     line-height: 40px;

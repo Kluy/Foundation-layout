@@ -1,29 +1,30 @@
-//backgrounds
-$main-background: rgba(243, 198, 189, 1);
-$button-color: rgba(48, 64, 196, 1);
-$hover-background: rgba(49, 65, 197, 1);
-$light-grey-bg: rgba(244, 245, 247, 1);
-$light-blue-bg: rgba(0, 161, 198, 0.07);
-
-//fonts
-
+$border-radius: 2px;
 $main-font-size: 24px;
-$main-text-color: rgba(43, 41, 45, 1);
 $main-line-height: 34px;
-$light-grey-text: rgba(43, 41, 45, 0.6);
-$inbox-title: rgba(241, 89, 43, 1);
-$communication-title: rgba(1, 137, 209, 1);
+$header-bg: rgba(243, 198, 189, 1);
 
-// common
+$ligt-blue-text: rgba(1, 137, 209, 1);
+$light-blue: rgba(1, 133, 208, 1);
+
+$orange: rgba(241, 89, 43, 1);
 $white: rgba(255, 255, 255, 1);
+$white01: rgba(255, 255, 255, 1);
+$blue-button: rgba(48, 64, 196, 1);
+$blue-hover: rgba(49, 65, 197, 1);
 $blue: rgba(49, 66, 198, 1);
 $green: rgba(0, 155, 77, 1);
+$black: rgba(0, 0, 0, 1);
+$black005: rgba(0, 0, 0, 0.05);
+$black01: rgba(0, 0, 0, 0.1);
+$black015: rgba(0, 0, 0, 0.15);
 
-// borders
-$border-light-grey: rgba(43, 41, 45, 0.2);
-$border-grey: rgba(227, 227, 227, 1);
-$border-black: rgba(0, 0, 0, 0.15);
+$light-blue-bg: rgba(0, 161, 198, 0.07);
+$grey-bg: rgba(213, 212, 213, 1);
+$grey-border: rgba(227, 227, 227, 1);
+$light-grey-bg: rgba(244, 245, 247, 1);
 
-$line-light-grey015: rgba(43, 41, 45, 0.15);
-$line-light-grey: rgba(43, 41, 45, 0.1);
-$border-radius: 2px;
+$light-grey-text: rgba(43, 41, 45, 0.6);
+$light-grey02: rgba(43, 41, 45, 0.2);
+$light-grey015: rgba(43, 41, 45, 0.15);
+$light-grey: rgba(43, 41, 45, 0.1);
+$grey: rgba(43, 41, 45, 1);

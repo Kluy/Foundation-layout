@@ -13,7 +13,8 @@
     }
   }
   &__logo {
-    margin-right: 126px;
+    display: flex;
+    align-items: center;
     @include large-screen {
       display: block;
       margin-right: 0;
@@ -22,12 +23,33 @@
       padding-bottom: 24px;
     }
   }
+  &__logo-image {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    @include large-screen {
+      margin-right: 0;
+      margin-bottom: 14px;
+    }
+  }
+  &__logo-name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: $grey;
+  }
+  &__logo-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: $light-grey-text;
+  }
   &__description {
     font-size: 18px;
     line-height: 26px;
     color: $light-grey-text;
     width: 360px;
-    margin: 26px 0 25px 0;
+    margin: 26px 126px 25px 0;
     @include large-screen {
       display: none;
     }
@@ -38,7 +60,7 @@
     padding: 0 130px;
     align-items: center;
     height: 50px;
-    border-top: 1px solid $border-light-grey;
+    border-top: 1px solid $light-grey;
     @include large-screen {
       display: block;
       border-top: 0;
@@ -56,7 +78,7 @@
   display: flex;
   @include large-screen {
     display: block;
-    border-top: 1px solid $border-light-grey;
+    border-top: 1px solid $light-grey;
   }
 
   &__title {

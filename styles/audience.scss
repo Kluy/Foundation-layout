@@ -17,14 +17,14 @@
   }
   &__users {
     max-width: 1140px;
-    margin-top: 111px;
-    margin: 0 auto;
+    margin: 111px auto 110px auto;
     display: flex;
     justify-content: space-between;
     @include large-screen {
       flex-direction: column;
       align-items: center;
       margin-top: 25px;
+      margin-bottom: 0;
     }
   }
 }
@@ -32,10 +32,10 @@
   width: 262px;
   cursor: pointer;
   text-align: center;
-  background-color: white;
+  background-color: $white;
   padding: 22px 62px 33px 62px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 1px 3px $black01, 0px 4px 6px $black005,
+    inset 0px 1px 0px $white01;
   border-radius: 8px;
   @include large-screen {
     margin-top: 15px;
@@ -47,7 +47,7 @@
     padding-top: 22px;
   }
   &:hover {
-    background-color: rgba(49, 65, 197, 1);
+    background-color: $blue-hover;
     .user-card__title {
       color: $white;
     }

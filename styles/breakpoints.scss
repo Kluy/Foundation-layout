@@ -2,7 +2,6 @@ $lr: 1200px;
 $md1: 800px;
 $md: 610px;
 $sm: 420px;
-// $sm: 320px;
 
 @mixin large-screen {
   @media screen and (max-width: $lr) {
@@ -27,9 +26,3 @@ $sm: 420px;
     @content;
   }
 }
-
-// @mixin large-screen {
-//   @media screen and (min-width: $lr) {
-//     @content;
-//   }
-// }

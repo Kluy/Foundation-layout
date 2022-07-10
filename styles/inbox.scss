@@ -30,7 +30,7 @@
     }
   }
   &__title {
-    color: $inbox-title;
+    color: $orange;
   }
 
   &__description {
@@ -41,9 +41,9 @@
   }
 }
 .review {
-  background-color: white;
+  background-color: $white;
   padding: 30px 30px 28px 30px;
-  border-bottom: 4px solid rgba(1, 133, 208, 1);
+  border-bottom: 4px solid $light-blue;
   max-width: 519px;
   &__text {
     font-size: 20px;

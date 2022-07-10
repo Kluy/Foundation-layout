@@ -2,14 +2,14 @@
   border: 0;
   width: 160px;
   height: 48px;
-  color: rgba(255, 255, 255, 1);
+  color: $white;
   font-weight: 700;
   font-size: 18px;
-  background-color: $button-color;
+  background-color: $blue-button;
   border-radius: $border-radius;
   &_white {
-    background-color: rgba(255, 255, 255, 1);
-    color: $button-color;
+    background-color: $white;
+    color: $blue-button;
     margin-left: 10px;
     width: 158px;
     @include small-screen {
@@ -18,7 +18,7 @@
     }
   }
   &_black-text {
-    color: rgba(0, 0, 0, 1);
+    color: $black;
   }
 
   &_audience {
