@@ -160,21 +160,14 @@
   position: relative;
   background-color: rgb(243, 198, 189);
 }
-.headline__inner {
-  padding: 0 0 126px 0;
-}
-@media screen and (max-width: 1200px) {
-  .headline__inner {
-    padding: 35px 0 36px 0;
-  }
-}
 .headline__wrapper {
   max-width: 1140px;
+  padding: 0 0 126px 0;
   margin: 0 auto;
 }
 @media screen and (max-width: 1200px) {
   .headline__wrapper {
-    padding: 0 15px;
+    padding: 35px 15px 36px 15px;
   }
 }
 .headline__title {
@@ -205,7 +198,7 @@
 }
 .headline__img {
   z-index: -1;
-  top: 8px;
+  top: 0;
   right: 25px;
   position: absolute;
 }
@@ -215,7 +208,6 @@
     display: block;
     max-width: 100%;
     margin-top: 33px;
-    top: 0;
     right: 0;
   }
 }
