@@ -46,7 +46,7 @@ ul {
   margin: 0;
 }
 
-h4 {
+.section__title {
   font-size: 22px;
   margin-bottom: 24px;
   line-height: 34px;
@@ -55,7 +55,7 @@ h4 {
   }
 }
 
-h2 {
+.section__subtitle {
   font-weight: 700;
   font-size: 56px;
   line-height: 56px;
@@ -68,10 +68,15 @@ h2 {
   }
 }
 
-figcaption {
+.figcaption {
   font-size: 14px;
   line-height: 22px;
   margin-top: 15px;
   color: $light-grey-text;
   text-align: center;
+  &_inbox {
+    @include medium-screen2 {
+      display: none;
+    }
+  }
 }

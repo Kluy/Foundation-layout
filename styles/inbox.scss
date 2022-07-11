@@ -17,11 +17,6 @@
       width: 290px;
     }
   }
-  &__figcaption {
-    @include medium-screen2 {
-      display: none;
-    }
-  }
   &__main {
     padding-left: 30px;
     max-width: 461px;
