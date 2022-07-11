@@ -47,9 +47,11 @@
     margin-bottom: 28px;
   }
   &__author {
+    padding-top: 26px;
+  }
+  .author {
     display: flex;
     align-items: center;
-    padding-top: 26px;
     height: 44px;
     &__avatar {
       margin-right: 11px;

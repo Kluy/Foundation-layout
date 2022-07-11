@@ -342,16 +342,17 @@
     line-height: 28px;
     margin-bottom: 28px; }
   .review__author {
+    padding-top: 26px; }
+  .review .author {
     display: flex;
     align-items: center;
-    padding-top: 26px;
     height: 44px; }
-    .review__author__avatar {
+    .review .author__avatar {
       margin-right: 11px; }
-    .review__author__name {
+    .review .author__name {
       font-size: 16px;
       line-height: 22px; }
-    .review__author__job {
+    .review .author__job {
       color: rgba(43, 41, 45, 0.6); }
 
 .communication {
