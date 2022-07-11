@@ -33,7 +33,7 @@
       justify-content: center;
       border-right: 1px solid $grey-border;
       &:last-child {
-        border-right: none;
+        border-right: 0;
       }
     }
   }
