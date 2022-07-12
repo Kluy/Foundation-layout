@@ -1,11 +1,11 @@
 .header {
   background-color: $header-bg;
-  @include medium-screen2 {
+  @include large-screen {
     background-color: $white;
   }
   &__inner {
     padding: 41px 15px 76px 15px;
-    @include medium-screen2 {
+    @include large-screen {
       padding: 0 0 0 15px;
     }
   }
@@ -24,7 +24,7 @@
     border-left: 1px solid $black015;
     margin-left: auto;
     display: none;
-    @include medium-screen2 {
+    @include large-screen {
       display: block;
     }
   }
@@ -34,7 +34,7 @@
   margin-left: auto;
   display: flex;
   align-items: center;
-  @include medium-screen2 {
+  @include large-screen {
     display: none;
   }
   &__item {

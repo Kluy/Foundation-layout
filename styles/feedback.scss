@@ -14,7 +14,7 @@
       background-image: none;
       padding: 0 0 40px 0;
     }
-    @include medium-screen {
+    @include large-screen {
       text-align: left;
     }
   }

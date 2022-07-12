@@ -1,10 +1,11 @@
 .tips {
+  padding: 10px 0;
+
   display: none;
   @include large-screen {
     display: block;
   }
 
-  padding: 10px 0;
   &__wrapper {
     padding: 40px 0;
     border-bottom: 1px solid $grey-border;

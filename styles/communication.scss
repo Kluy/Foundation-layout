@@ -2,13 +2,13 @@
   padding: 110px 15px;
   max-width: 1140px;
   margin: 0 auto;
-  @include medium-screen2 {
+  @include large-screen {
     padding: 50px 15px;
   }
   &__block {
     display: flex;
     justify-content: space-between;
-    @include medium-screen2 {
+    @include large-screen {
       display: block;
     }
   }
@@ -28,7 +28,7 @@
     max-width: 425px;
     margin-right: 63px;
     margin-bottom: 26px;
-    @include medium-screen2 {
+    @include large-screen {
       width: 290px;
       margin: 40px 0;
     }
@@ -44,7 +44,7 @@
     margin-right: 30px;
     font-size: 18px;
     line-height: 26px;
-    @include medium-screen2 {
+    @include large-screen {
       margin-top: 33px;
       margin-right: 0;
     }
