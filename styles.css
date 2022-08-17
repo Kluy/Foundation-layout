@@ -341,19 +341,20 @@
     font-size: 20px;
     line-height: 28px;
     margin-bottom: 28px; }
-  .review__author {
-    padding-top: 26px; }
-  .review .author {
-    display: flex;
-    align-items: center;
-    height: 44px; }
-    .review .author__avatar {
-      margin-right: 11px; }
-    .review .author__name {
-      font-size: 16px;
-      line-height: 22px; }
-    .review .author__job {
-      color: rgba(43, 41, 45, 0.6); }
+
+.author {
+  display: flex;
+  align-items: center;
+  height: 44px; }
+  .author__avatar {
+    margin-right: 11px; }
+  .author__info {
+    font-size: 16px;
+    line-height: 22px; }
+  .author__job {
+    color: rgba(43, 41, 45, 0.6); }
+  .author__info_feedback {
+    line-height: 24px; }
 
 .communication {
   padding: 110px 15px;
@@ -417,7 +418,7 @@
         margin-bottom: 30px; } }
   .audience__users {
     max-width: 1140px;
-    margin: 111px auto 110px auto;
+    margin: 111px auto 0 auto;
     display: flex;
     justify-content: space-between; }
     @media screen and (max-width: 1200px) {
@@ -486,6 +487,11 @@
     @media screen and (max-width: 1200px) {
       .feedback__img {
         display: block; } }
+  .feedback__author {
+    font-size: 16px;
+    line-height: 24px; }
+  .feedback__author-job {
+    color: rgba(43, 41, 45, 0.6); }
 
 .dots {
   text-align: center; }
@@ -612,10 +618,15 @@
   .order input[type='email'] {
     height: 48px;
     width: 385px;
+    font-size: 18px;
+    line-height: 13px;
+    padding-left: 15px;
+    font-weight: 400;
+    color: #2b292d;
+    opacity: 1;
     border-radius: 2px;
     border: 1px solid rgba(43, 41, 45, 0.2);
-    vertical-align: bottom;
-    line-height: 48px; }
+    vertical-align: bottom; }
     @media screen and (max-width: 420px) {
       .order input[type='email'] {
         width: 100%; } }

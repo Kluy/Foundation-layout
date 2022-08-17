@@ -19,7 +19,7 @@
   }
   &__users {
     max-width: 1140px;
-    margin: 111px auto 110px auto;
+    margin: 111px auto 0 auto;
     display: flex;
     justify-content: space-between;
     @include large-screen {
