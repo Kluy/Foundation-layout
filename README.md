@@ -1,3 +1,4 @@
+<h1>Foundation layout</h1>
 <h2><a href="https://kluy.github.io/Foundation-layout/index.html">Site link</a></h2>
 
 <p>Layout supports mobile (up-to-320) and desktop (up-to-1400) versions</p>

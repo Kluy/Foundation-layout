@@ -39,12 +39,17 @@
   input[type='email'] {
     height: 48px;
     width: 385px;
+    font-size: 18px;
+    line-height: 13px;
+    padding-left: 15px;
     border-radius: $border-radius;
     border: 1px solid $light-grey02;
     vertical-align: bottom;
-    line-height: 48px;
     @include large-screen {
       width: 100%;
+    }
+    &::placeholder {
+      color: $grey;
     }
   }
   &__small-text {

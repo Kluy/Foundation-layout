@@ -1,6 +1,6 @@
 .inbox {
   padding: 115px 99px 101px 193px;
-  background-color: rgba(252, 240, 227, 1);
+  background-color: $white-bg;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -46,22 +46,23 @@
     line-height: 28px;
     margin-bottom: 28px;
   }
-  &__author {
-    padding-top: 26px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  height: 44px;
+  &__avatar {
+    margin-right: 11px;
   }
-  .author {
-    display: flex;
-    align-items: center;
-    height: 44px;
-    &__avatar {
-      margin-right: 11px;
-    }
-    &__name {
-      font-size: 16px;
-      line-height: 22px;
-    }
-    &__job {
-      color: $light-grey-text;
-    }
+  &__info {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  &__info_feedback {
+    line-height: 24px;
+  }
+  &__job {
+    color: $light-grey-text;
   }
 }

@@ -459,22 +459,23 @@
   line-height: 28px;
   margin-bottom: 28px;
 }
-.review__author {
-  padding-top: 26px;
-}
-.review .author {
+
+.author {
   display: flex;
   align-items: center;
   height: 44px;
 }
-.review .author__avatar {
+.author__avatar {
   margin-right: 11px;
 }
-.review .author__name {
+.author__info {
   font-size: 16px;
   line-height: 22px;
 }
-.review .author__job {
+.author__info_feedback {
+  line-height: 24px;
+}
+.author__job {
   color: rgba(43, 41, 45, 0.6);
 }
 
@@ -562,7 +563,7 @@
 }
 .audience__users {
   max-width: 1140px;
-  margin: 111px auto 110px auto;
+  margin: 111px auto 0 auto;
   display: flex;
   justify-content: space-between;
 }
@@ -583,7 +584,7 @@
   background-color: rgb(255, 255, 255);
   text-align: center;
   border-radius: 8px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgb(255, 255, 255);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
 @media screen and (max-width: 1400px) {
   .user-card {
@@ -824,15 +825,20 @@
 .order input[type=email] {
   height: 48px;
   width: 385px;
+  font-size: 18px;
+  line-height: 13px;
+  padding-left: 15px;
   border-radius: 2px;
   border: 1px solid rgba(43, 41, 45, 0.2);
   vertical-align: bottom;
-  line-height: 48px;
 }
 @media screen and (max-width: 1400px) {
   .order input[type=email] {
     width: 100%;
   }
+}
+.order input[type=email]::placeholder {
+  color: rgb(43, 41, 45);
 }
 .order__small-text {
   margin-top: 10px;
