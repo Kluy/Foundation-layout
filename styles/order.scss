@@ -42,14 +42,12 @@
     font-size: 18px;
     line-height: 13px;
     padding-left: 15px;
+    color: $grey;
     border-radius: $border-radius;
     border: 1px solid $light-grey02;
     vertical-align: bottom;
     @include large-screen {
       width: 100%;
-    }
-    &::placeholder {
-      color: $grey;
     }
   }
   &__small-text {
