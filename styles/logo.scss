@@ -5,7 +5,7 @@
     width: 60px;
     height: 60px;
     margin-right: 15px;
-    @include medium-screen2 {
+    @include large-screen {
       margin-right: 13px;
       width: 48px;
       height: 48px;
@@ -28,7 +28,7 @@
     font-size: 18px;
     line-height: 25px;
     color: $light-grey-text;
-    @include medium-screen2 {
+    @include large-screen {
       display: none;
     }
   }

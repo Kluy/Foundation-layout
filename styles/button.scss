@@ -30,16 +30,16 @@
   }
   &_hiring {
     width: 247px;
-    @include small-screen {
+    @include large-screen {
       width: 100%;
     }
   }
   &_order {
-    @include medium-screen {
+    @include large-screen {
       width: 385px;
       margin-top: 12px;
     }
-    @include small-screen {
+    @include large-screen {
       width: 100%;
     }
   }

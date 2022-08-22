@@ -1,10 +1,10 @@
 .inbox {
   padding: 115px 99px 101px 193px;
-  background-color: rgba(252, 240, 227, 1);
+  background-color: $white-bg;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  @include medium-screen2 {
+  @include large-screen {
     padding: 50px 15px;
     display: block;
   }
@@ -12,7 +12,7 @@
   &__img {
     max-width: 100%;
     margin-top: 33px;
-    @include medium-screen2 {
+    @include large-screen {
       margin-bottom: 32px;
       width: 290px;
     }
@@ -20,7 +20,7 @@
   &__main {
     padding-left: 30px;
     max-width: 461px;
-    @include medium-screen2 {
+    @include large-screen {
       padding-left: 0;
     }
   }
@@ -31,7 +31,7 @@
   &__description {
     margin-bottom: 44px;
     line-height: 34px;
-    @include medium-screen2 {
+    @include large-screen {
       margin-bottom: 30px;
     }
   }
@@ -59,10 +59,10 @@
     font-size: 16px;
     line-height: 22px;
   }
-  &__job {
-    color: $light-grey-text;
-  }
   &__info_feedback {
     line-height: 24px;
+  }
+  &__job {
+    color: $light-grey-text;
   }
 }

@@ -13,6 +13,9 @@
   }
   &__img {
     margin-right: 121px;
+    @include large-screen {
+      margin-right: 0;
+    }
   }
   &__title {
     font-weight: 700;
@@ -39,14 +42,14 @@
     font-size: 18px;
     line-height: 13px;
     padding-left: 15px;
-    font-weight: 400;
-    color: #2b292d;
-    opacity: 1;
     border-radius: $border-radius;
     border: 1px solid $light-grey02;
     vertical-align: bottom;
-    @include small-screen {
+    @include large-screen {
       width: 100%;
+    }
+    &::placeholder {
+      color: $grey;
     }
   }
   &__small-text {

@@ -2,7 +2,6 @@
 @import 'breakpoints.scss';
 @import 'button.scss';
 @import 'logo.scss';
-
 @import 'header.scss';
 @import 'headline';
 @import 'about.scss';
@@ -16,8 +15,6 @@
 @import 'hiring.scss';
 @import 'order.scss';
 @import 'footer.scss';
-// @import '';
-// @import '';
 
 * {
   box-sizing: border-box;
@@ -26,9 +23,11 @@
   font-family: 'Work Sans', sans-serif;
   font-size: $main-font-size;
   color: $grey;
-  min-width: 320px;
   max-width: 1400px;
   margin: 0 auto;
+  @include large-screen {
+    width: 320px;
+  }
 }
 h1,
 h2,
@@ -75,7 +74,7 @@ ul {
   color: $light-grey-text;
   text-align: center;
   &_inbox {
-    @include medium-screen2 {
+    @include large-screen {
       display: none;
     }
   }

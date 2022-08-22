@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    @include medium-screen2 {
+    @include large-screen {
       display: block;
       padding-top: 0;
     }
@@ -17,14 +17,14 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    @include medium-screen2 {
+    @include large-screen {
       width: 100%;
       border-bottom: 1px solid $grey-border;
     }
   }
 
   &__logo-box {
-    @include medium-screen2 {
+    @include large-screen {
       width: 100%;
       min-width: 107px;
       height: 94px;
@@ -39,7 +39,7 @@
   }
   &__logo {
     filter: brightness(0);
-    @include medium-screen2 {
+    @include large-screen {
       &_nyt {
         width: 77px;
       }
