@@ -1,6 +1,6 @@
 .inbox {
   padding: 115px 99px 101px 193px;
-  background-color: $white-bg;
+  background-color: rgba(252, 240, 227, 1);
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -25,7 +25,7 @@
     }
   }
   &__title {
-    color: $orange;
+    color: rgba(241, 89, 43, 1);
   }
 
   &__description {
@@ -39,7 +39,7 @@
 .review {
   background-color: $white;
   padding: 30px 30px 28px 30px;
-  border-bottom: 4px solid $light-blue;
+  border-bottom: 4px solid rgba(1, 133, 208, 1);
   max-width: 519px;
   &__text {
     font-size: 20px;
@@ -63,6 +63,6 @@
     line-height: 24px;
   }
   &__job {
-    color: $light-grey-text;
+    color: $light-grey-06;
   }
 }

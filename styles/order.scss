@@ -44,7 +44,7 @@
     padding-left: 15px;
     color: $grey;
     border-radius: $border-radius;
-    border: 1px solid $light-grey02;
+    border: 1px solid $light-grey-02;
     vertical-align: bottom;
     @include large-screen {
       width: 100%;
@@ -54,6 +54,6 @@
     margin-top: 10px;
     font-size: 14px;
     line-height: 22px;
-    color: $light-grey-text;
+    color: $light-grey-06;
   }
 }

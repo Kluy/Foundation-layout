@@ -1,5 +1,5 @@
 .feedback {
-  border-bottom: 1px solid $black01;
+  border-bottom: 1px solid $black-01;
   @include large-screen {
     padding: 40px 15px 50px 15px;
   }
@@ -41,7 +41,7 @@
     line-height: 24px;
   }
   &__author-job {
-    color: $light-grey-text;
+    color: $light-grey-06;
   }
 }
 .dots {
@@ -52,7 +52,7 @@
   width: 8px;
   height: 8px;
   display: inline-block;
-  background-color: $light-grey02;
+  background-color: $light-grey-02;
   border-radius: 100%;
   &:active {
     background-color: $blue;

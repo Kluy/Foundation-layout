@@ -42,12 +42,12 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
-    color: $light-grey-text;
+    color: $light-grey-06;
   }
   &__description {
     font-size: 18px;
     line-height: 26px;
-    color: $light-grey-text;
+    color: $light-grey-06;
     width: 360px;
     margin: 26px 126px 25px 0;
     @include large-screen {
@@ -101,7 +101,7 @@
     line-height: 38px;
   }
   &__link > a {
-    color: $light-grey-text;
+    color: $light-grey-06;
     text-decoration: none;
   }
 }
@@ -109,14 +109,14 @@
 .terms {
   font-size: 14px;
   line-height: 22px;
-  color: $light-grey-text;
+  color: $light-grey-06;
   @include large-screen {
     padding-bottom: 31px;
   }
   &__link {
     margin-right: 21px;
     text-decoration: none;
-    color: $light-grey-text;
+    color: $light-grey-06;
   }
 }
 
