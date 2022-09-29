@@ -7,8 +7,8 @@
   justify-content: center;
   background-color: $light-grey-bg;
   @include large-screen {
-    display: block;
     padding: 50px 15px;
+    display: block;
     text-align: center;
   }
   &__img {
@@ -18,34 +18,32 @@
     }
   }
   &__title {
-    font-weight: 700;
+    margin-bottom: 12px;
     font-size: 40px;
+    font-weight: 700;
     line-height: 40px;
     letter-spacing: -0.25px;
-    margin-bottom: 12px;
     @include large-screen {
       padding-top: 40px;
     }
   }
   &__description {
+    margin-bottom: 26px;
     width: 555px;
     font-size: 22px;
     line-height: 32px;
-    margin-bottom: 26px;
     @include large-screen {
       width: auto;
     }
   }
-  input[type='email'] {
-    height: 48px;
-    width: 385px;
-    font-size: 18px;
-    line-height: 13px;
+  &__email {
     padding-left: 15px;
+    width: 385px;
+    height: 48px;
+    font-size: 18px;
     color: $grey;
-    border-radius: $border-radius;
     border: 1px solid $light-grey-02;
-    vertical-align: bottom;
+    border-radius: $border-radius;
     @include large-screen {
       width: 100%;
     }

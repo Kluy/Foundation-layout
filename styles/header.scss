@@ -12,18 +12,18 @@
   &__wrapper {
     margin: 0 auto;
     max-width: 1140px;
-    display: flex;
     height: 64px;
+    display: flex;
   }
   &__hidden-menu {
+    margin-left: auto;
     width: 58px;
     height: 64px;
-    line-height: 64px;
+    display: none;
     vertical-align: middle;
     text-align: center;
+    line-height: 64px;
     border-left: 1px solid rgba(0, 0, 0, 0.15);
-    margin-left: auto;
-    display: none;
     @include large-screen {
       display: block;
     }
@@ -38,9 +38,9 @@
     display: none;
   }
   &__item {
+    margin-right: 50px;
     font-size: 18px;
     line-height: 25px;
-    margin-right: 50px;
     text-decoration: none;
     color: $grey;
   }

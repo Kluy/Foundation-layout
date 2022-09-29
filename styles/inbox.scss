@@ -1,9 +1,9 @@
 .inbox {
   padding: 115px 99px 101px 193px;
-  background-color: rgba(252, 240, 227, 1);
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  background-color: rgba(252, 240, 227, 1);
   @include large-screen {
     padding: 50px 15px;
     display: block;
@@ -37,21 +37,21 @@
   }
 }
 .review {
-  background-color: $white;
   padding: 30px 30px 28px 30px;
-  border-bottom: 4px solid rgba(1, 133, 208, 1);
   max-width: 519px;
+  background-color: $white;
+  border-bottom: 4px solid rgba(1, 133, 208, 1);
   &__text {
+    margin-bottom: 28px;
     font-size: 20px;
     line-height: 28px;
-    margin-bottom: 28px;
   }
 }
 
 .author {
+  height: 44px;
   display: flex;
   align-items: center;
-  height: 44px;
   &__avatar {
     margin-right: 11px;
   }

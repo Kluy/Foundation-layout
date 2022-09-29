@@ -1,6 +1,5 @@
 @import 'var.scss';
 @import 'breakpoints.scss';
-@import 'button.scss';
 @import 'logo.scss';
 @import 'header.scss';
 @import 'headline';
@@ -20,11 +19,11 @@
   box-sizing: border-box;
 }
 .page {
+  margin: 0 auto;
+  max-width: 1400px;
   font-family: 'Work Sans', sans-serif;
   font-size: $main-font-size;
   color: $grey;
-  max-width: 1400px;
-  margin: 0 auto;
   @include large-screen {
     width: 320px;
   }
@@ -40,14 +39,14 @@ figure {
 }
 
 ul {
-  list-style: none;
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 
 .section__title {
-  font-size: 22px;
   margin-bottom: 24px;
+  font-size: 22px;
   line-height: 34px;
   @include large-screen {
     margin-bottom: 17px;
@@ -55,27 +54,74 @@ ul {
 }
 
 .section__subtitle {
+  margin-bottom: 30px;
   font-weight: 700;
   font-size: 56px;
   line-height: 56px;
-  margin-bottom: 30px;
   letter-spacing: -0.5px;
   @include large-screen {
+    margin-bottom: 18px;
     font-size: 40px;
     line-height: 40px;
-    margin-bottom: 18px;
   }
 }
 
 .figcaption {
+  margin-top: 15px;
   font-size: 14px;
   line-height: 22px;
-  margin-top: 15px;
-  color: $light-grey-06;
   text-align: center;
+  color: $light-grey-06;
   &_inbox {
     @include large-screen {
       display: none;
+    }
+  }
+}
+
+.button {
+  width: 160px;
+  height: 48px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 13px;
+  text-transform: capitalize;
+  color: $white;
+  border: 0;
+  border-radius: $border-radius;
+  background-color: $blue-button;
+  &_white {
+    margin-left: 10px;
+    width: 158px;
+    color: $blue-button;
+    background-color: $white;
+    @include large-screen {
+      margin-top: 12px;
+      margin-left: 0;
+    }
+  }
+  &_black-text {
+    color: rgba(0, 0, 0, 1);
+  }
+
+  &_audience {
+    @include large-screen {
+      width: 100%;
+    }
+  }
+  &_hiring {
+    width: 247px;
+    @include large-screen {
+      width: 100%;
+    }
+  }
+  &_order {
+    @include large-screen {
+      margin-top: 12px;
+      width: 385px;
+    }
+    @include large-screen {
+      width: 100%;
     }
   }
 }

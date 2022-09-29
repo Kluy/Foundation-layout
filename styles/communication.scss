@@ -1,7 +1,7 @@
 .communication {
   padding: 110px 15px;
-  max-width: 1140px;
   margin: 0 auto;
+  max-width: 1140px;
   @include large-screen {
     padding: 50px 15px;
   }
@@ -16,8 +16,8 @@
     max-width: 461px;
   }
   &__title {
-    color: rgba(1, 137, 209, 1);
     margin-top: 13px;
+    color: rgba(1, 137, 209, 1);
   }
 
   &__description {
@@ -29,8 +29,8 @@
     margin-right: 63px;
     margin-bottom: 26px;
     @include large-screen {
-      width: 290px;
       margin: 40px 0;
+      width: 290px;
     }
   }
   &__line {
@@ -39,9 +39,9 @@
   }
 
   &__text {
-    max-width: 360px;
     margin-top: 41px;
     margin-right: 30px;
+    max-width: 360px;
     font-size: 18px;
     line-height: 26px;
     @include large-screen {

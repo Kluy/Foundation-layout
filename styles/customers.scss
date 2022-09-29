@@ -8,8 +8,8 @@
     align-items: center;
     justify-content: space-between;
     @include large-screen {
-      display: block;
       padding-top: 0;
+      display: block;
     }
   }
   &__wrapper-small {

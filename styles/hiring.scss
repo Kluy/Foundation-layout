@@ -1,16 +1,16 @@
 .hiring {
   padding: 106px 0 110px 0;
-  text-align: center;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
+  text-align: center;
   @include large-screen {
     padding: 50px 15px;
   }
   &__text {
     margin-bottom: 28px;
-    line-height: 34px;
     max-width: 555px;
+    line-height: 34px;
   }
   &__vacancy {
     margin-top: 20px;
@@ -27,20 +27,20 @@
 }
 
 .vacancy {
+  padding: 0 34px 0 25px;
+  width: 750px;
+  height: 81px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 750px;
-  height: 81px;
   text-align: left;
-  padding: 0 34px 0 25px;
   border-radius: $border-radius * 4;
   border: 1px solid $light-grey;
   background-color: $white;
   @include large-screen {
+    padding: 0 0 0 20px;
     width: 290px;
     height: 140px;
-    padding: 0 0 0 20px;
   }
   &:hover {
     background-color: $blue-hover;
@@ -57,8 +57,8 @@
     display: flex;
     justify-content: space-between;
     @include large-screen {
-      display: block;
       width: 200px;
+      display: block;
     }
   }
   &__title {
@@ -74,19 +74,19 @@
     color: $light-grey-06;
   }
   &__arrow {
-    display: block;
+    margin-left: 33px;
     width: 7px;
     height: 12px;
-    margin-left: 33px;
-    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png);
+    display: block;
     background-repeat: no-repeat;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png);
     @include large-screen {
       margin-left: 0;
       width: 50px;
       height: 138px;
       border-radius: 0 8px 8px 0;
-      background-color: rgba(213, 212, 213, 1);
       background-position: center center;
+      background-color: rgba(213, 212, 213, 1);
     }
   }
 }
