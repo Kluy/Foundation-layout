@@ -26,8 +26,8 @@
   &__logo-box {
     @include large-screen {
       width: 100%;
-      min-width: 107px;
       height: 94px;
+      min-width: 107px;
       display: flex;
       align-items: center;
       justify-content: center;

@@ -34,8 +34,8 @@
   align-items: center;
   justify-content: space-between;
   text-align: left;
-  border-radius: $border-radius * 4;
   border: 1px solid $light-grey;
+  border-radius: $border-radius * 4;
   background-color: $white;
   @include large-screen {
     padding: 0 0 0 20px;
@@ -43,8 +43,8 @@
     height: 140px;
   }
   &:hover {
-    background-color: $blue-hover;
     color: $white;
+    background-color: $blue-hover;
     .vacancy__location {
       color: $white;
     }
@@ -62,8 +62,8 @@
     }
   }
   &__title {
-    font-weight: 700;
     font-size: 22px;
+    font-weight: 700;
     line-height: 28px;
   }
   &__location {
